@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\manage.py",
+            "args": [
+                "runserver"
+            ],
+            "django": true,
+            "env": {
+                "SECRET_KEY": "*^@g^r@n($5i40hu2pm2*h%7twg#&apqzz^ou3+s5ya7y27c!s",
+                "MONGO_HOST": "localhost",
+                "MONGO_DB": "casestudydb",
+            
+            }
+        }
+    ]
+}
+   
